@@ -34,11 +34,25 @@
     </header>
 
     <hr />
-    
+
     <br class="clear" />
 
-
+  <div class="container">
     <%= yield %>
+  </div>
+
+  <div class = "footer">
+    <div class = "container">
+      <div class="row">
+        <div class = "col-6">
+          <%= link_to "Still feeling stuck?", "#", class: 'next-quote' %>
+        </div>
+        <div class="col-6 footer-blurb">
+          
+        <p class = "text-muted">Coded and presented by <a href="https://joshuahead.netlify.com/">Joshua Head</a></p>
+      </div>
+    </div>
+  </div>
 
 
   </body>

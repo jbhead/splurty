@@ -9,25 +9,37 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
+
   <body>
     <header class="row">
       <div class="col-3">
-        LOGO
+        <div class="circle">
+          <br />
+          HELP!
+          <br />
+          I'M
+          <br />
+          STUCK!
+        </div>
       </div>
-      <div class="col-4">
+
+      <div class="col-4 slogan">
         Feeling stuck? We're here to help!
       </div>
-      <div class="col-5">
+      <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
 
+    <hr />
+    
     <br class="clear" />
 
 
     <%= yield %>
 
-    
+
   </body>
 </html>
